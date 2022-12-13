@@ -1,2 +1,23 @@
+
+{myWebServers}
 172.31.39.239
 172.31.37.15
+
+
+{myAppServers}
+172.31.39.23
+172.31.37.1
+
+{myDBServers}
+172.31.39.233
+172.31.37.13
+
+{myUbuntuservers}
+172.31.39.239
+
+{myRedHatservers}
+172.31.37.15
+
+{myWebServers:vars}
+webpackonubuntu= apache2
+webpackonredhar= httpd
