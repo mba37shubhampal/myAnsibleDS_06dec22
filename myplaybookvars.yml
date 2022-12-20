@@ -1,5 +1,5 @@
 ---
-- host: 172.31.39.239
+- hosts: 172.31.39.239
   become: yes
   vars:
      myvar01: git 
@@ -8,5 +8,7 @@
   tasks: 
   - name: i want to display myvar02
     debug:
-       msg: "{{myvars02}}"
+       msg: "{{myvars02}}" 
+       
+       
 
