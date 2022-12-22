@@ -1,2 +1,8 @@
 ---
 # tasks file for mywebro
+
+- name: install webserver
+  apt:
+    name: apache2
+    state: present
+    
