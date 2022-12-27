@@ -9,3 +9,13 @@
   template:
       src: templates/mytomcontext.j2
       dest: /opt/tomcat/webapps/manager/META-INF/context.xml
+
+- name: i want to copy host context file into ansible node side 
+  template:
+      src: templates/myhosttomcontext.j2
+      dest: /opt/tomcat/webapps/host-manager/META-INF/context.xml
+
+- name: i want to copy tomcate services file into ansible node side
+  template:
+      src: templates/mytomservice.j2
+      dest: /etc/systemd/system/tomcat.service
